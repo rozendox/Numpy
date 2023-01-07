@@ -116,3 +116,53 @@ output:
          [1. 1.]
          [1. 1.]]
 """
+
+
+"""
+Criando uma matriz quadrada com diagonal principal
+contendo valores 1 e os outros valores 0
+"""
+
+diag1 = np.eye(5)
+
+#Imprimindo os valores da variável "diag1"
+print(diag1)
+
+"""
+output: 
+
+      [[1. 0. 0. 0. 0.]
+       [0. 1. 0. 0. 0.]
+       [0. 0. 1. 0. 0.]
+       [0. 0. 0. 1. 0.]
+       [0. 0. 0. 0. 1.]]
+       
+       
+"""
+
+#Criando valores entre zeros e uns
+aleat = np.random.random((5))
+print(aleat)
+
+
+"""
+output: 
+
+        [0.52724901 0.10202178 0.3079136  0.93807065 0.78919295]
+        
+        
+"""
+
+
+#Valores aeatórios contendo negativos
+aleat2 = np.random.randn((5))
+print(aleat2)
+
+"""
+output: 
+
+       [ 0.29244046  1.25815897  0.04045272 -0.63142693 -0.443084  ]
+  
+  
+  
+"""
